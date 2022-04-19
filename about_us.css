@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    background-image: url("BACKGORUND.jpeg");
+    color: white;
+}
+#header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+#nav-bar{
+    font-weight: 500;
+    font-size: 20px;
+    font-family:'Lobster';
+}
+#nav-bar>ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+}
+#nav-bar>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#nav-bar>ul>li{
+    padding-right:20px;
+    padding-left: 20px;
+}
+.main-body{
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 550px;
+    margin-top: 70px;
+    display: flex;  
+}
+.main-body h1{
+    font-size: 70px;
+    color: blue;
+    text-decoration: underline black;
+    text-shadow: 0px 0px 2px gold;
+}
+#image{
+    width: 20%;
+}
+.sub-body{
+    background-color: transparent;
+    padding:50px;
+    padding-top: 5px;
+    margin: 30px;
+    width: 38%;
+    height:1100px;
+    display: inline-table;
+    border: 2px solid yellow;
+    border-radius: 100px 100px 100px 100px;
+}
+.sub-body h1{
+    font-size: 50px;
+    text-shadow: 0px 0px 1px black;
+    color: white;
+    text-decoration: underline yellow;
+}
+.sub-body p{
+    font-size: 25px;
+    color:white;
+    text-shadow: 0px 0px 1px yellow;
+    font-weight: 700;
+    font-family:fantasy;
+}
+.footer{
+    text-align: center;
+   position: relative;
+   bottom: 0;
+    padding-top: 20px;
+}
+.line{
+    text-align: left;
+
+}
+.facebook{
+    display: inline;
+    padding-left: 20px;
+}
+.facebook1{
+    width: 3%;
+}
+.get_it{
+    display: inline;
+}
